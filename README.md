@@ -9,7 +9,10 @@ This project creates various maps in accordance to the location we enter, opens 
 
 Python 2.x is required to run this project. The Python executable should be in
 your default path, which the Python installer should have set.
-In this we are using a python package called *folium*. Folium is a wrapper around leaflet.js which makes beautiful interactive maps that you can view in any browser. Some other libraries including webbrowser, os, requests, json, geopy.geocoders etc would also have to be included.
+
+In this we are using a python package called *folium*. Folium is a wrapper around leaflet.js which makes beautiful interactive maps that you can view in any browser. 
+
+Some other libraries including webbrowser, os, requests, json, geopy.geocoders etc would also have to be included.
  We’ll use pip to install the libraries not installed already; using your terminal (linux/osx) or command prompt (windows) type
  
  ```
@@ -30,16 +33,7 @@ window in Linux, the command prompt in Windows).
 Navigate to the project directory and type in the following command:
 
 ```bash
-python entertainment_center.py
+Map.py
 ```
-
-Your default browser should launch a new tab displaying the movie trailer website.
-
-## Extra Credit Description
-
-* I have added the storyline of the movie to the website.
-
-## Miscellaneous
-
-This README document is based on a template by SteveWooding in this
-Udacity forum [post](https://github.com/SteveWooding/movie-website/blob/master/README.md).
+It will ask you to enter the name of the place you want to open.
+After you enter, your default browser should launch a new tab displaying the map of the place. When you click over the place, a pop-up will appear displaying the current weather conditions of the same.
