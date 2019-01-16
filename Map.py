@@ -14,7 +14,7 @@ loc = input("enter the place you want to find?")
 complete_url = base_url + "appid=" + api_key + "&q=" + loc
 
 # get method of requests module and return response object
-response = requests.get(complete_url)
+response = requests.get(complete_url,verify=False)
 
 # json method of response object to convert json format data into python format data
 x = response.json()
